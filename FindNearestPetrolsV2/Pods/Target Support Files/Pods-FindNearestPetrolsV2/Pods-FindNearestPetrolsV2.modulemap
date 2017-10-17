@@ -1,0 +1,6 @@
+framework module Pods_FindNearestPetrolsV2 {
+  umbrella header "Pods-FindNearestPetrolsV2-umbrella.h"
+
+  export *
+  module * { export * }
+}
