@@ -10,4 +10,6 @@ target 'FindNearestPetrolsV2' do
    pod 'ObjectMapper'
    pod ‘AlamofireObjectMapper’
    pod 'Kingfisher', '~> 3.0'
+   pod 'SwiftyJSON', '~> 3.1.4'
+   pod 'GoogleMaps'
 end

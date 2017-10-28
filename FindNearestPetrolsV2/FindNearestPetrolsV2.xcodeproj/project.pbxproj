@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3301E5F71FA31FB500A2909E /* MapViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E5F61FA31FB500A2909E /* MapViewContoller.swift */; };
+		3301E5FA1FA31FE200A2909E /* TypesTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E5F91FA31FE200A2909E /* TypesTableViewContoller.swift */; };
+		3301E5FC1FA31FFC00A2909E /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E5FB1FA31FFC00A2909E /* GoogleDataProvider.swift */; };
+		3301E6001FA3203000A2909E /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E5FF1FA3203000A2909E /* GooglePlace.swift */; };
+		3301E6021FA3203D00A2909E /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E6011FA3203D00A2909E /* PlaceMarker.swift */; };
+		3301E6041FA3206900A2909E /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E6031FA3206900A2909E /* MarkerInfoView.swift */; };
+		3301E6061FA320A000A2909E /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3301E6051FA320A000A2909E /* MarkerInfoView.xib */; };
+		3301E6081FA320C400A2909E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E6071FA320C400A2909E /* UIViewExtension.swift */; };
 		332000911F7C47A500DD4698 /* MapPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332000901F7C47A500DD4698 /* MapPointAnnotation.swift */; };
+		3331A50E1FA3344E00C10A51 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3331A50F1FA3344E00C10A51 /* Alamofire.framework */; };
+		3331A5101FA3345D00C10A51 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3331A5111FA3345D00C10A51 /* SwiftyJSON.framework */; };
+		3331A5131FA37DD900C10A51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3331A5121FA37DD900C10A51 /* MapKit.framework */; };
 		335F520D1F79403A00C48CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F520C1F79403A00C48CDE /* AppDelegate.swift */; };
 		335F520F1F79403A00C48CDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F520E1F79403A00C48CDE /* ViewController.swift */; };
 		335F52121F79403A00C48CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335F52101F79403A00C48CDE /* Main.storyboard */; };
@@ -21,7 +32,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3301E5F61FA31FB500A2909E /* MapViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContoller.swift; sourceTree = "<group>"; };
+		3301E5F91FA31FE200A2909E /* TypesTableViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTableViewContoller.swift; sourceTree = "<group>"; };
+		3301E5FB1FA31FFC00A2909E /* GoogleDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		3301E5FF1FA3203000A2909E /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		3301E6011FA3203D00A2909E /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		3301E6031FA3206900A2909E /* MarkerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		3301E6051FA320A000A2909E /* MarkerInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		3301E6071FA320C400A2909E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		332000901F7C47A500DD4698 /* MapPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPointAnnotation.swift; sourceTree = "<group>"; };
+		3331A50D1FA333ED00C10A51 /* Feed Me-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feed Me-Bridging-Header.h"; sourceTree = "<group>"; };
+		3331A50F1FA3344E00C10A51 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3331A5111FA3345D00C10A51 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3331A5121FA37DD900C10A51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		335F52091F79403A00C48CDE /* FindNearestPetrolsV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindNearestPetrolsV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335F520C1F79403A00C48CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335F520E1F79403A00C48CDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3331A5101FA3345D00C10A51 /* SwiftyJSON.framework in Frameworks */,
+				3331A50E1FA3344E00C10A51 /* Alamofire.framework in Frameworks */,
+				3331A5131FA37DD900C10A51 /* MapKit.framework in Frameworks */,
 				33D46C3AAA9A5BFF72EE0B1F /* Pods_FindNearestPetrolsV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,10 +76,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3301E5F31FA31F4700A2909E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3301E5F61FA31FB500A2909E /* MapViewContoller.swift */,
+				3301E5F91FA31FE200A2909E /* TypesTableViewContoller.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3301E5F41FA31F6F00A2909E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3301E5FB1FA31FFC00A2909E /* GoogleDataProvider.swift */,
+				3301E5FF1FA3203000A2909E /* GooglePlace.swift */,
+				3301E6011FA3203D00A2909E /* PlaceMarker.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3301E5F51FA31F8100A2909E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3301E6031FA3206900A2909E /* MarkerInfoView.swift */,
+				3301E6051FA320A000A2909E /* MarkerInfoView.xib */,
+				3301E6071FA320C400A2909E /* UIViewExtension.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		335F52001F79403A00C48CDE = {
 			isa = PBXGroup;
 			children = (
 				335F520B1F79403A00C48CDE /* FindNearestPetrolsV2 */,
+				3331A50D1FA333ED00C10A51 /* Feed Me-Bridging-Header.h */,
 				335F520A1F79403A00C48CDE /* Products */,
 				FF7783C59FAD6D142D7309D1 /* Pods */,
 				627BAC10CCD8BE71D1422DD5 /* Frameworks */,
@@ -71,8 +127,10 @@
 		335F520B1F79403A00C48CDE /* FindNearestPetrolsV2 */ = {
 			isa = PBXGroup;
 			children = (
-				335F521E1F7A769C00C48CDE /* OtherFailes */,
 				335F520C1F79403A00C48CDE /* AppDelegate.swift */,
+				3301E5F31FA31F4700A2909E /* Controllers */,
+				3301E5F41FA31F6F00A2909E /* Models */,
+				3301E5F51FA31F8100A2909E /* Views */,
 				335F520E1F79403A00C48CDE /* ViewController.swift */,
 				335F52101F79403A00C48CDE /* Main.storyboard */,
 				335F52131F79403A00C48CDE /* Assets.xcassets */,
@@ -81,6 +139,7 @@
 				332000901F7C47A500DD4698 /* MapPointAnnotation.swift */,
 				335F5DC21F842F37009BB440 /* PlacesModel.swift */,
 				339D78BA1F93838300BE52CE /* Results.swift */,
+				335F521E1F7A769C00C48CDE /* OtherFailes */,
 			);
 			path = FindNearestPetrolsV2;
 			sourceTree = "<group>";
@@ -97,6 +156,9 @@
 		627BAC10CCD8BE71D1422DD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3331A5121FA37DD900C10A51 /* MapKit.framework */,
+				3331A5111FA3345D00C10A51 /* SwiftyJSON.framework */,
+				3331A50F1FA3344E00C10A51 /* Alamofire.framework */,
 				579C0BE9765661D038E7B3EE /* Pods_FindNearestPetrolsV2.framework */,
 			);
 			name = Frameworks;
@@ -148,6 +210,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Y8ZEK6U73F;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -174,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3301E6061FA320A000A2909E /* MarkerInfoView.xib in Resources */,
 				335F52171F79403A00C48CDE /* LaunchScreen.storyboard in Resources */,
 				335F52141F79403A00C48CDE /* Assets.xcassets in Resources */,
 				335F52121F79403A00C48CDE /* Main.storyboard in Resources */,
@@ -235,10 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3301E6041FA3206900A2909E /* MarkerInfoView.swift in Sources */,
 				332000911F7C47A500DD4698 /* MapPointAnnotation.swift in Sources */,
 				335F52201F7A76ED00C48CDE /* Constanst.swift in Sources */,
+				3301E6001FA3203000A2909E /* GooglePlace.swift in Sources */,
+				3301E6081FA320C400A2909E /* UIViewExtension.swift in Sources */,
+				3301E6021FA3203D00A2909E /* PlaceMarker.swift in Sources */,
 				335F520F1F79403A00C48CDE /* ViewController.swift in Sources */,
 				339D78BB1F93838300BE52CE /* Results.swift in Sources */,
+				3301E5FA1FA31FE200A2909E /* TypesTableViewContoller.swift in Sources */,
+				3301E5FC1FA31FFC00A2909E /* GoogleDataProvider.swift in Sources */,
+				3301E5F71FA31FB500A2909E /* MapViewContoller.swift in Sources */,
 				335F52221F7A905300C48CDE /* OtherExtensionsAndFunctions.swift in Sources */,
 				335F520D1F79403A00C48CDE /* AppDelegate.swift in Sources */,
 				335F5DC31F842F37009BB440 /* PlacesModel.swift in Sources */,
@@ -292,6 +367,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -342,8 +418,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -367,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y8ZEK6U73F;
 				INFOPLIST_FILE = FindNearestPetrolsV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.FindNearestPetrolsV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y8ZEK6U73F;
 				INFOPLIST_FILE = FindNearestPetrolsV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.FindNearestPetrolsV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

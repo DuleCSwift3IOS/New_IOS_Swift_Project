@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jla-Sa-KFP" customClass="MarkerInfoView" customModule="Feed_Me" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="134" translatesAutoresizingMaskIntoConstraints="NO" id="D3x-RS-DNh">
+                    <rect key="frame" x="8" y="0.0" width="134" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="FX8-tk-tYy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="walking" translatesAutoresizingMaskIntoConstraints="NO" id="771-h8-Kw8">
+                    <rect key="frame" x="50" y="100" width="50" height="50"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SX-ZD-L0z">
+                    <rect key="frame" x="34" y="40" width="83" height="58"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="771-h8-Kw8" secondAttribute="centerX" id="RON-AV-bmq"/>
+                <constraint firstItem="D3x-RS-DNh" firstAttribute="top" secondItem="jla-Sa-KFP" secondAttribute="top" id="gcl-A9-gyE"/>
+                <constraint firstItem="D3x-RS-DNh" firstAttribute="leading" secondItem="jla-Sa-KFP" secondAttribute="leading" constant="8" id="skc-gK-Gdp"/>
+                <constraint firstAttribute="bottom" secondItem="771-h8-Kw8" secondAttribute="bottom" id="xKy-I0-XqD"/>
+                <constraint firstAttribute="trailing" secondItem="D3x-RS-DNh" secondAttribute="trailing" constant="8" id="xMq-h1-Co9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="QHm-6E-u9O"/>
+            <connections>
+                <outlet property="showButtonDirections" destination="7SX-ZD-L0z" id="xR3-Ss-tKz"/>
+                <outlet property="showNameLabel" destination="D3x-RS-DNh" id="gHX-bl-Zyq"/>
+            </connections>
+            <point key="canvasLocation" x="387" y="467"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="walking" width="50" height="50"/>
+    </resources>
+</document>

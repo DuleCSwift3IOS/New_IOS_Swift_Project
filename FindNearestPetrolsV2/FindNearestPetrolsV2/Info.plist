@@ -28,11 +28,29 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Show my location and nearest polace to find gas station</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Always it&apos;s always</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Show my location</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Always show my location here</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
 	</array>
 </dict>
 </plist>

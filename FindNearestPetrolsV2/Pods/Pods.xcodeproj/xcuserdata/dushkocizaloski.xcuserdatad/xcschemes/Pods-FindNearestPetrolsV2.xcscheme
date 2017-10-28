@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F597BAABD4DAE3B6936660A35D9594C"
+               BlueprintIdentifier = "1B39942EE1F11B30B5384EC7CC44A8A1"
                BuildableName = "Pods_FindNearestPetrolsV2.framework"
                BlueprintName = "Pods-FindNearestPetrolsV2"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F597BAABD4DAE3B6936660A35D9594C"
+            BlueprintIdentifier = "1B39942EE1F11B30B5384EC7CC44A8A1"
             BuildableName = "Pods_FindNearestPetrolsV2.framework"
             BlueprintName = "Pods-FindNearestPetrolsV2"
             ReferencedContainer = "container:Pods.xcodeproj">
